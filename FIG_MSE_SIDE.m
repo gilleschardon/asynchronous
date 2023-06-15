@@ -26,7 +26,7 @@ XYZm = cell(2, 1);
 XYZm{1} = [X(:) Y(:) Z1 * ones(size(X(:)))];
 XYZm{2} = [ Z1 * ones(size(X(:))) Y(:) X(:)];
 
-XYZs = [-1.1, 0.0, -1.3];
+XYZs = [-1.2, 0.0, -1.3];
 
 LBg = [-2,-1,-2];
 UBg = [0,1,0];
